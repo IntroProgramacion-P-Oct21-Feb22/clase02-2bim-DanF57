@@ -18,13 +18,14 @@ public class Ejemplo04 {
         // Declarar y generar arreglos en Java
 
         // arreglo de tipo entero
-        int[] arreglo1 = new int[5];
-                
+        int[] arreglo1 = {100, 101, 102, 103};
+        //System.out.println(arreglo1.length);
+
         for (int i = 0; i < arreglo1.length; i++) {
             System.out.printf("Subíndice o Índice %d, con valor %d\n",
                     i, arreglo1[i]);
         }
-        
+
     }
 
 }

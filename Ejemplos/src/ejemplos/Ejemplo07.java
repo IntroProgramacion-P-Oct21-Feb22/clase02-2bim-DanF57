@@ -23,7 +23,7 @@ public class Ejemplo07 {
         int suma = 0;
         // arreglo de tipo entero
         int[] arreglo1 = new int[5];
-        
+
         // Se asigna valores al arreglo, pidiendo valores por teclado
         // se usa un ciclo repetitivo
         for (int i = 0; i < arreglo1.length; i++) {
@@ -33,16 +33,16 @@ public class Ejemplo07 {
             // de acuerdo al valor de i
             arreglo1[i] = dato;
         }
-        
+
         // Se hace uso del ciclo repetitivo for para recorrer el arreglo
         for (int i = 0; i < arreglo1.length; i++) {
             // agrego el valor de la posición del arreglo a la variable
             // acumuladora  suma
             suma = suma + arreglo1[i];
         }
-        
+
         System.out.printf("La suma de los valores del arreglo es: %d\n", suma);
-        
+
     }
 
 }
